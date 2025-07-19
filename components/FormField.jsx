@@ -19,7 +19,6 @@ const FormField = ({ control, name, label, placeholder, type = "text" }) => {
           <FormControl>
             <Input className="input" placeholder={placeholder} type={type} {...field} />
           </FormControl>
-          <FormDescription>This is your password</FormDescription>
           <FormMessage />
         </FormItem>
       )}
